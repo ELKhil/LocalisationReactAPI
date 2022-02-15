@@ -1,0 +1,20 @@
+.map {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.marker{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: rgb(8, 7, 7);
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  
+}
+.marker:hover {
+    z-index: 1;
+  }
