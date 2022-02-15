@@ -12,7 +12,7 @@ const Loca = (props) =>{
  return(
     <div className="map" style={{  height: '50vh', width: '50%' }}>
     <GoogleMapReact 
-        googleMapsApiKey="AIzaSyAdgm1cxrqhidU_35UzrPRGRwwDQstpnoo"
+        googleMapsApiKey="api"
         defaultCenter={[lat, lon]}
         defaultZoom={11}
         text="My Marker"
@@ -33,4 +33,4 @@ const Loca = (props) =>{
 }
 
  export default Loca;
- //ma clé : AIzaSyAdgm1cxrqhidU_35UzrPRGRwwDQstpnoo
+ 
